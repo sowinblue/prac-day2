@@ -6,9 +6,23 @@ person = {"name":"블루윈","age":25}
 members.append(person)
 print(members)
 
-
 #* gitbrach 사용하여 문제 풀기
 # B-2 : 딕셔너리 여러 개를 리스트로 구성 
 
-members = [{"name":"블루윈"}, {"age":25}, {"address":"지구"}]
+# members = [{"name":"블루윈"}, {"age":25}, {"address":"지구"}]
+
+
+members=[]
+for i in range(3):
+    name = input("이름")
+    age = input("나이")
+
+    member = {
+        "name" : name,
+        "age" : age
+    }
+
+    members.append(member)
+
+
 print(members)
