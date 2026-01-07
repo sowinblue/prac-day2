@@ -69,3 +69,27 @@ for member in members:
 for member in members:
     if member["age"] < 28:
         print(member["name"])
+        print(member)
+
+
+# B-7 : 순회하며 딕셔너리 내 값 수정
+
+for member in members:
+    if member["name"]== "윈블루":
+        member["name"] = "윈핑크"
+
+print(members)
+
+for member in members:
+    if "그린" in member["name"]:
+        member["name"] = "윈블루" 
+
+print(members)
+
+for member in members:
+    last_year = member["age"]
+    new_year = member["age"]+1
+    member["age"]=new_year
+    print(f"작년 나이는 {last_year}살이고, 올해 나이는 {new_year}살 입니다")
+
+print(members)
