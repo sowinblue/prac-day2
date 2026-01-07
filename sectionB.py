@@ -64,3 +64,8 @@ for member in members:
 for member in members:
     if "블루" in member["name"]:
         print(member["age"])
+
+
+for member in members:
+    if member["age"] < 28:
+        print(member["name"])
