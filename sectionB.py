@@ -1,0 +1,7 @@
+# section B - 딕셔너리를 담은 리스트
+# Bi-1: 딕셔너리 하나를 리스트에 추가
+
+members = []
+person = {"name":"블루윈","age":25}
+members.append(person)
+print(members)
