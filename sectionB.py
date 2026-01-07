@@ -9,4 +9,4 @@ print(members)
 #* gitbrach 사용하여 문제 풀기
 # B-2 : 딕셔너리 여러 개를 리스트로 구성 
 
-members = [{"name":"블루윈"}, {"age":25}, {"address":"}}]
+members = [{"name":"블루윈"}, {"age":25}, {"address":"}}]g
